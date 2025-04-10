@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GADA Electronics - Image Gallery</title>
+    <style>
+        .large-button {
+            padding: 12px 48px;
+            background-color: bisque;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style=" color: #fff; font-family: Arial, sans-serif; background-image: url('/photos/photo_2024-11-13_22-58-01.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <header>
+        <table border="0" width="100%">
+            <tr height="50px" width="400px">
+                <th width="100px">
+                    <img align="left" src="assets/photos/gada.webp" height="100" width="100">
+                </th>
+                <th> 
+                    <label for="Search"></label>
+                    <a href="login.html">
+                        <input type="button" class="large-button" value="Login">
+                    </a>
+                </th>
+                <th align="right">
+                    <h3>
+                        <a href="index.html">
+                            <button class="large-button">Home</button>
+                        </a>
+                    </h3>
+                </th>
+                <th align="right">
+                    <h3>
+                        <a href="service.html">
+                            <button class="large-button">Services</button>
+                        </a>
+                    </h3>
+                </th>
+                <th align="right">
+                    <h3>
+                        <a href="image.html">
+                            <button class="large-button">Image Gallery</button>
+                        </a>
+                    </h3>
+                </th>
+                <th align="right">
+                    <h3>
+                        <select class="large-button" onchange="location = this.value;">
+                            <option value="">Contact Us</option>
+                            <option value="contact.html">Contact</option>
+                            <option value="bulkorders.html">Bulk Order</option>
+                            <option value="feedback.html">Feedback</option>
+                        </select>
+                    </h3>
+                </th>
+            </tr>
+        </table>
+    </header>
+    <div style="text-align: center; padding: 20px;">
+        <h2 style="color: rgb(27, 27, 94);">Image Gallery</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <div>
+                <img src="assets/photos/gada.webp" alt="Image 1" title="Image 1" style="max-width: 300px; max-height: 300px;">
+            </div>
+            <div>
+                <img src="assets/photos/gada24.webp" alt="Image 2" title="Image 2" style="max-width: 300px; max-height: 300px;">
+            </div>
+            <div>
+                <img src="assets/photos/gada55.webp" alt="Image 3" title="Image 3" style="max-width: 300px; max-height: 300px;">
+            </div>
+            <div>
+                <img src="assets/photos/gadaelectronics.webp" alt="Image 4" title="Image 4" style="max-width: 300px; max-height: 300px;">
+            </div>
+            <div>
+                <img src="assets/hotos/jethalal.webp" alt="Image 5" title="Image 5" style="max-width: 300px; max-height: 300px;">
+            </div>
+            <div>
+                <img src="assets/photos/electronicdevice.webp" alt="Image 6" title="Image 6" style="max-width: 300px; max-height: 300px;">
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: #caa4a4; padding: 20px; text-align: center; color: #000;">
+        <p>&copy; 2024 GADA Electronics. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/Bageshwar">
+                <img src="/assets/photos/insta.webp" alt="Instagram" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.facebook.com/jethalal">
+                <img src="/assets/photos/fb.webp" alt="Facebook" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.x.com/nattu">
+                <img src="/assets/photos/xicon.webp" alt="X" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

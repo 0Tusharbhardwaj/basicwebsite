@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GADA Electronics - HOME</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin: auto;
+            padding: 20px;
+            max-width: 400px;
+            background-color: #1e1e1e;
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+        }
+
+        .cancel {
+            background-color: #f44336;
+        }
+
+        .signup {
+            background-color: #4CAF50;
+        }
+
+        a {
+            color: #00aaff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center; color: bisque;"> <strong>GADA ELECTRONICS</strong></h1>
+        <table border="0" width="100%">
+            <tr height="50px" width="400px">
+                <th width="100px">
+                    <img align="left" src="assets/photos/gada.webp" height="100" width="100">
+                </th>
+                <th> 
+                    <label for="Search"></label>
+                    <a href="login.html">
+                        <input type="button" class="large-button" value="Login">
+                    </a>
+                </th>
+                <th align="right">
+                    <h3>
+                        <a href="index.html">
+                            <button class="large-button">Home</button>
+                        </a>
+                    </h3>
+                </th>
+                <th align="right">
+                    <h3>
+                        <a href="service.html">
+                            <button class="large-button">Services</button>
+                        </a>
+                    </h3>
+                </th>
+                <th align="right">
+                    <h3>
+                        <a href="image.html">
+                            <button class="large-button">Image Gallery</button>
+                        </a>
+                    </h3>
+                </th>
+                <th align="right">
+                    <h3>
+                        <select class="large-button" onchange="location = this.value;">
+                            <option value="">Contact Us</option>
+                            <option value="contact.html">Contact</option>
+                            <option value="bulkorders.html">Bulk Order</option>
+                            <option value="feedback.html">Feedback</option>
+                        </select>
+                    </h3>
+                </th>
+            </tr>
+        </table>
+    </header>
+    <div class="container">
+        <h1>GADA Electronics</h1>
+        <h3>SIGN IN </h3>
+        <form>
+            <label for="email"><b>Enter Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="psw"><b>Enter Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label>
+                <input type="checkbox" name="remember"> Remember me
+            </label>
+            <button type="button" class="cancle">Cancel</button>
+            <button type="submit" class="signup">Sign In</button>
+        </form>
+    </div>
+</body>
+
+</html>
